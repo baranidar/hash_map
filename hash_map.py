@@ -23,9 +23,12 @@ class HashTable:
         
         
 t = HashTable()
+print (t.arr)
 t["March 16"] = 120
 t["Feb 20"] = 130
+print(t.arr)
 print(t["March 16"])
 print(t["Feb 20"])
 del t["Feb 20"]
+print(t.arr)
 print(t["Feb 20"])
